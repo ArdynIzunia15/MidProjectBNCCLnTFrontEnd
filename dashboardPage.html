@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="icon" type="image/x-icon" href="assets/logo_bwa_new.svg" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="stylesheetDashboardPage.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"></script>
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid mx-5 my-2">
+				<a class="navbar-brand me-5" href="#">
+					<img
+						src="https://class.buildwithangga.com/themes/front/images/logo_bwa_new.svg"
+						alt=""
+						width="50"
+						height="50" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav gap-4">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Flash Sale</a
+							>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle active"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Kelas
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle active"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Alur Belajar
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Bootcamp</a
+							>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle active"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Resources
+							</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav right-menu ms-auto">
+						<li class="nav-item">
+							<a href="#" class="btn-circle btn-xl btn-secondary">
+								<img
+									src="https://class.buildwithangga.com/themes/front/images/ic_search.svg"
+									alt="" />
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="btn-circle btn-xl btn-secondary">
+								<img
+									src="https://class.buildwithangga.com/themes/front/images/ic_notification.svg"
+									alt="" />
+							</a>
+						</li>
+						<li class="nav-item">
+							<span>Halo, Username</span>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#">
+								<img
+									src="https://lh3.googleusercontent.com/a/AEdFTp4dR4_LNDD7VBnrfRuwgh0zugj_uFVTMD_MXac6=s96-c"
+									class="img-fluid rounded-full"
+									alt=""
+									width="50px"
+									height="50px" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Akhir Navbar -->
+		<!-- Side Menu -->
+		<div class="container ms-5 mt-3 me-0">
+			<div class="row">
+				<div class="col-3 side-menu rounded-5 content">
+					<!-- User Info -->
+					<div class="mb-5">
+						<div class="user-picture text-start">
+							<img
+								src="https://lh3.googleusercontent.com/a/AEdFTp4dR4_LNDD7VBnrfRuwgh0zugj_uFVTMD_MXac6=s96-c"
+								alt=""
+								class="img-fluid rounded-full"
+								width="70px"
+								height="70px" />
+						</div>
+						<div class="user-info text-start mt-4">
+							<h3 class="lh-base">Username</h3>
+							<p>User Status</p>
+						</div>
+					</div>
+					<!-- Menu -->
+					<div class="menus text-start">
+						<div class="item">
+							<img
+								src="https://class.buildwithangga.com/themes/front/images/ic_basic_progress_gray.svg"
+								class="icon float-start" />
+							<p>
+								<a href="https://class.buildwithangga.com/progress_belajar">
+									Progress Belajar
+								</a>
+							</p>
+						</div>
+						<div class="item side-menu-active">
+							<img
+								src="https://class.buildwithangga.com/themes/front/images/ic_basic_kelas_saya_gray.svg"
+								class="icon float-start" />
+							<p>
+								<a href="https://class.buildwithangga.com/kelas_saya">
+									Kelas Saya
+								</a>
+							</p>
+						</div>
+						<div class="item">
+							<img
+								src="https://class.buildwithangga.com/themes/front/images/ic_basic_kelas_saya_gray.svg"
+								class="icon float-start" />
+							<p>
+								<a href="https://class.buildwithangga.com/promo">
+									My Vouchers
+								</a>
+							</p>
+						</div>
+						<div class="item">
+							<img
+								src="https://class.buildwithangga.com/themes/front/images/ic_invoice_gray.svg"
+								class="icon float-start" />
+							<p>
+								<a href="https://class.buildwithangga.com/transactions">
+									Transactions
+								</a>
+							</p>
+						</div>
+						<div class="item">
+							<img
+								src="https://class.buildwithangga.com/themes/front/images/ic_basic_settings_gray.svg"
+								class="icon float-start" />
+							<p>
+								<a href="https://class.buildwithangga.com/settings">
+									Settings
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-9 text-start">
+					<div class="container ms-3 mt-5">
+						<div class="header mb-5">
+							<h3 class="mb-4">Kelas Saya</h3>
+							<p class="fw-light">Upgrade terus ilmu dan pengalaman <br> terbaru kamu di bidang teknologi</p>
+						</div>
+						<div class="categories mb-4">
+							<ul class="nav nav-pills mb-4 d-flex gap-4">
+								<li class="nav-item">
+									<button class="nav-link btn-categories categories-active">Active</button>
+								</li>
+								<li class="nav-item">
+									<button class="nav-link btn-categories">Starter</button>
+								</li>
+								<li class="nav-item">
+									<button class="nav-link btn-categories">Freemium</button>
+								</li>
+								<li class="nav-item">
+									<button class="nav-link btn-categories">Premium</button>
+								</li>
+								<li class="nav-item">
+									<button class="nav-link btn-categories">Finished</button>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="gapapa text-center">
+							<img src="https://class.buildwithangga.com/images/website_thumbnail.svg" alt="" class="img-fluid">
+							<p class="my-4 py-1 fw-medium">Sepertinya kamu belum mengikuti kelas. <br> Jangan khawatir, yuk cari kelas yang sesuai dengan kebutuhanmu!</p>
+							<a href="#" class="btn btn-primary">Lihat Katalog Kelas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Akhir Side Menu -->
+	</body>
+</html>

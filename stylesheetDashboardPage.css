@@ -1,0 +1,141 @@
+body {
+    background-color: #f6f8fd!important;
+    font-family: Poppins,sans-serif!important;
+}
+
+.navbar.navbar{
+    font-weight: 500;
+}
+
+.btn-primary{
+    background: #2447f9;
+    border: 0;
+    color: #fff;
+    transition: all .4s;
+}
+
+.btn-primary.btn-primary {
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600!important;
+    padding: 11px 42px;
+}
+
+.bg-nav {
+    background: #f6f8fd;
+}
+
+.btn-secondary {
+    background: #e5e9f2;
+    border: 0;
+    color: #34364a;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 11px 42px;
+    width: 1%;
+    height: auto;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+  }
+
+.rounded-full{
+    border-radius: 100px;
+}
+
+.right-menu {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.side-menu{
+    background: #fff;
+    height: 750px;
+}
+
+.side-menu-active img{
+    filter: brightness(0) saturate(100%) invert(26%) sepia(87%) saturate(1682%) hue-rotate(221deg) brightness(105%) contrast(111%);
+}
+
+.side-menu-active a{
+    font-weight: 500;
+    color: #34364a!important;
+}
+
+.content{
+    padding: 30px!important;
+}
+
+h1, h2, h3, h4{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.user-info h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.user-info p{
+    font-weight: 100;
+}
+
+.menus .item{
+    margin-bottom: 36px;
+}
+
+.menus .item img{
+    margin-right: 12px!important;
+}
+
+.menus .item p a{
+    text-decoration: none;
+    color: #999aa4;
+}
+
+.menus .item p a:hover{
+    color: #34364a;
+}
+
+.header h3{
+    font-weight: 700;
+}
+
+.categories{
+    height: 40px;
+}
+
+.btn-categories.btn-categories{
+    background: #e5e9f2!important;
+    border-radius: 100px!important;
+    color: #34364a!important;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.categories-active.categories-active{
+    background: #34364a!important;
+    color: #e5e9f2!important;
+}
+
+.nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: var(--bs-nav-pills-border-radius);
+}
+
+.row.row{
+    width: 100%;
+}

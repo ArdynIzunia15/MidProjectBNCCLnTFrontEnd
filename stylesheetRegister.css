@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-background-color{
+    background: #F6F8FD;
+}
+
+.banner{
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.banner img{
+    height: 100%;
+}
+
+.content{
+    width: 100%;
+    max-width: 400px;
+    padding-top: 100px;
+}
+
+.content a img{
+    width: 50px;
+    height: 50px;
+}
+
+.content-title{
+    font-weight: 700;
+}
+
+.main-form{
+    background: #FFF;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.main-form form div input{
+    border-radius: 100px;
+    height: 45px;
+    padding: 11px 20px 11px 20px;
+    background: #E5E9F2;
+    border: none;
+}
+
+.form-control{
+    color: #34364a;
+    outline: none;
+}
+
+.main-form button{
+    height: 45px;
+    min-width: 100%;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600!important;
+    padding: 11px 42px;
+    background: #2447f9;
+}
+
+.btn-primary, .btn-primary:hover {
+    background: #2447f9;
+    border: 0;
+    color: #fff;
+    transition: all .4s;
+}

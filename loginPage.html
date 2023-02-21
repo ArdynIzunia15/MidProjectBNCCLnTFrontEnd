@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="assets/logo_bwa_new.svg" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="stylesheetLoginPage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Masuk Akun</title>
+</head>
+<body>
+    <div class="card flex-row card-container shadow-lg my-5">
+        <img src="https://buildwithangga.com/themes/front/images/belajar-coding-product-design-kelas-online-buildwith-angga.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Sign In</h5>
+            <article class="form-group p-0 mt-30">
+            <form action="" method="POST" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                    <div class="invalid-feedback">
+                        Email wajib diisi.
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="password" required>
+                    <div class="invalid-feedback">
+                        Password wajib diisi.
+                    </div>
+                </div>
+                <div class="text-link-container text-end">
+                    <a class="text-link" href="https://class.buildwithangga.com/password/reset">Lupa Password</a>
+                </div>
+                <button type="submit" class="mt-4 btn btn-primary btn-lg btn-login">Sign In</button>
+                <script src="scriptLogin.js"></script>
+                <a class="btn btn-secondary mt-3 w-100" href="https://buildwithangga.com/start/sign-up?main_leads=gate">Create New Account</a>
+            </form>
+            <div class="divider my-4"></div>
+            <a class="btn btn-dark btn-google" href="https://class.buildwithangga.com/redirect/google">
+                <img src="https://buildwithangga.com/themes/front/images/ic_google.svg" alt="BuildWith Angga"> Masuk / Daftar
+            </a>
+        </article>
+        </div>
+</body>
+</html>
